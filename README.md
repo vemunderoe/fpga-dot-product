@@ -1,1 +1,1 @@
-# fpga-dot-product
+# fpga-vector-math
