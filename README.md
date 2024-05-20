@@ -22,8 +22,13 @@ The project is organized into two main directories:
 
 To run the testbenches, you will need a Verilog simulator such as Icarus Verilog. Once you have that installed, you can run a testbench using the following command:
 
+### 1. Compile the code
 ```sh
 iverilog -o testbench.vvp tb_dot_product.v dot_product.v element-wise_multiplication.v reduction_tree.v
+```
+
+### 2. Run the test bench
+```sh
 vvp testbench.vvp
 ```
 
