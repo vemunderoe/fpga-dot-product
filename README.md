@@ -11,12 +11,10 @@ The project is organized into two main directories:
   - `element-wise_multiplication.v`: A helper module used in the dot product calculation.
   - `reduction_tree.v`: Another helper module used in the dot product calculation.
   - `tb_dot_product.v`: The testbench for the dot product module.
-  - `dot_product_tb`: Contains additional testbench information.
 
 - `element-wise_multiplication/`: Contains the Verilog code for performing element-wise multiplication of two vectors. It includes the following files:
   - `element-wise_multiplication.v`: The main module for the element-wise multiplication.
   - `tb_element-wise_multiplication.v`: The testbench for the element-wise multiplication module.
-  - `element-wise_multiplication_tb`: Contains additional testbench information.
 
 ## Getting Started
 
