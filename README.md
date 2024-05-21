@@ -39,17 +39,17 @@ vvp testbench.vvp
 ```
 
 ### 2. Test bench of dot product using Icarus Verilog
-#### 1.1 Move into dot product module
+#### 2.1 Move into dot product module
 ```sh
 cd dot_product
 ```
 
-#### 1.2 Compile code
+#### 2.2 Compile code
 ```sh
 iverilog -o testbench.vvp tb_dot_product.v dot_product.v element-wise_multiplication.v reduction_tree.v
 ```
 
-#### 1.3 Run the test bench
+#### 2.3 Run the test bench
 ```sh
 vvp testbench.vvp
 ```
