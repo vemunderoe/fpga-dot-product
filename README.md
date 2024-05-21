@@ -20,7 +20,7 @@ The project is organized into two main directories:
 
 ## Getting Started
 
-To run the testbenches, you will need a Verilog simulator such as Icarus Verilog. Once you have that installed, you can run a testbench using the following command:
+To run the testbenches, you will need a Verilog simulator such as [Icarus Verilog](https://steveicarus.github.io/iverilog/usage/installation.html). Once you have that installed, you can run a testbench using the following command:
 
 ### 1. Test bench of Element-wise multiplication using Icarus Verilog
 #### 1.1 Move into element-wise multiplication module
