@@ -1,13 +1,13 @@
-// testbench_dot_product.v
+// Test bench of dot product
 module testbench;
-    parameter N = 8;
+    parameter N = 16;
     reg [32*N-1:0] a;  // Packed vector for Vector A
     reg [32*N-1:0] b;  // Packed vector for Vector B
     wire [31:0] result; // Dot product result
 
     // Instantiate the dot_product module
     dot_product #(N) uut (
-        .a(a), .b(b), .result(result)
+        .vector_a(a), .vector_b(b), .result(result)
     );
 
     integer i;
