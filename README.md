@@ -1,6 +1,6 @@
-# FPGA Vector Math
+# FPGA Math
 
-This project contains Verilog code for performing vector math operations on FPGA. It includes modules for dot product calculation and element-wise multiplication.
+This project contains Verilog code for performing math operations on FPGA. It includes modules for dot product calculation, element-wise multiplication and float16 addition.
 
 ## Project Structure
 
